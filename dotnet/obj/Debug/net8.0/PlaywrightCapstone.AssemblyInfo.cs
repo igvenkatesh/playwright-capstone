@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlaywrightCapstone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4541dd28caf172b227d234a2172281107d0fb5e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+105b9d63e7d1ec5d191a70836a389d976b712533")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlaywrightCapstone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlaywrightCapstone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
