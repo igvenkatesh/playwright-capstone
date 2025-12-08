@@ -112,12 +112,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 12619,
+                  "duration": 36512,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-12-07T04:44:36.098Z",
+                  "startTime": "2025-12-08T23:42:29.809Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -132,7 +132,7 @@
         },
         {
           "title": "E-commerce checkout flow",
-          "ok": true,
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -145,18 +145,50 @@
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 16917,
-                  "errors": [],
+                  "status": "timedOut",
+                  "duration": 32605,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "D:\\WORKING_DIR\\playwright-capstone\\js\\pages\\loginPage.ts",
+                        "column": 21,
+                        "line": 9
+                      },
+                      "message": "Error: page.goto: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://practice.expandtesting.com/login\", waiting until \"load\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\loginPage.ts:9\n\n\u001b[0m \u001b[90m  7 |\u001b[39m   \u001b[90m// Navigate to login page\u001b[39m\n \u001b[90m  8 |\u001b[39m   \u001b[36masync\u001b[39m goto() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'/login'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m   }\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m   \u001b[90m// Perform login with username and password\u001b[39m\u001b[0m\n\u001b[2m    at LoginPage.goto (D:\\WORKING_DIR\\playwright-capstone\\js\\pages\\loginPage.ts:9:21)\u001b[22m\n\u001b[2m    at D:\\WORKING_DIR\\playwright-capstone\\js\\tests\\checkout.spec.ts:14:15\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-12-07T04:44:36.110Z",
+                  "startTime": "2025-12-08T23:42:29.808Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\WORKING_DIR\\playwright-capstone\\js\\test-results\\checkout-E-commerce-checkout-flow-Firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\WORKING_DIR\\playwright-capstone\\js\\test-results\\checkout-E-commerce-checkout-flow-Firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\WORKING_DIR\\playwright-capstone\\js\\test-results\\checkout-E-commerce-checkout-flow-Firefox\\error-context.md"
+                    }
+                  ]
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
           "id": "25ab1bfc84c57e3e3a45-5893d65b50a6e305f109",
@@ -180,12 +212,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 15704,
+                  "duration": 35908,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-12-07T04:44:36.128Z",
+                  "startTime": "2025-12-08T23:42:29.805Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -203,11 +235,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-12-07T04:44:34.187Z",
-    "duration": 24449.894,
-    "expected": 3,
+    "startTime": "2025-12-08T23:42:27.274Z",
+    "duration": 41077.771,
+    "expected": 2,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }

@@ -1,0 +1,6 @@
+pages\CheckoutPage.class
+CheckoutTest.class
+EmptyCartTest.class
+pages\ProductPage.class
+NegativeLoginTest.class
+pages\LoginPage.class
