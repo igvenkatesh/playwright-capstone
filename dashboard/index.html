@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Playwright Capstone Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <h1>Playwright Capstone Test Results</h1>
+
+  <!-- Summary Table -->
+  <div id="summary">
+    <table>
+      <thead>
+        <tr>
+          <th>Test Suite</th>
+          <th>Passed</th>
+          <th>Failed</th>
+        </tr>
+      </thead>
+      <tbody id="results-table"></tbody>
+    </table>
+  </div>
+
+  <!-- Charts -->
+  <div id="charts">
+    <canvas id="resultsChart" width="600" height="400"></canvas>
+  </div>
+
+  <script src="js/dashboard.js"></script>
+</body>
+
+</html>

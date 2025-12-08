@@ -1,0 +1,41 @@
+{
+  // === General Editor Settings ===
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  // === JavaScript / TypeScript ===
+  "javascript.validate.enable": true,
+  "typescript.validate.enable": true,
+  "eslint.enable": true,
+  "prettier.requireConfig": true,
+  "playwright.testExplorer.enabled": true,
+  "playwright.testExplorer.defaultProfile": "js",
+  // === Python ===
+  "python.defaultInterpreterPath": "python3",
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.analysis.typeCheckingMode": "basic",
+  // === Java ===
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.test.config": {
+    "workingDirectory": "${workspaceFolder}/java",
+    "testKind": "junit"
+  },
+  "maven.executable.path": "mvn",
+  // === .NET (C#) ===
+  "dotnet.defaultSolution": "${workspaceFolder}/dotnet/PlaywrightCapstone.csproj",
+  "dotnet.testExplorer.enabled": true,
+  // === Git Integration ===
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "gitlens.hovers.enabled": true,
+  // === Dashboard Preview ===
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "dashboard"
+}

@@ -1,0 +1,213 @@
+{
+  "config": {
+    "configFile": "D:\\WORKING_DIR\\playwright-capstone\\js\\playwright.config.ts",
+    "rootDir": "D:/WORKING_DIR/playwright-capstone/js/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../dashboard/data/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/WORKING_DIR/playwright-capstone/js/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "Chrome",
+        "name": "Chrome",
+        "testDir": "D:/WORKING_DIR/playwright-capstone/js/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "checkout.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/WORKING_DIR/playwright-capstone/js/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "D:/WORKING_DIR/playwright-capstone/js/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "checkout.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/WORKING_DIR/playwright-capstone/js/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "Edge",
+        "name": "Edge",
+        "testDir": "D:/WORKING_DIR/playwright-capstone/js/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "checkout.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "checkout.spec.ts",
+      "file": "checkout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "E-commerce checkout flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome",
+              "projectName": "Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12619,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-07T04:44:36.098Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "25ab1bfc84c57e3e3a45-cae2acf13eed6a1201de",
+          "file": "checkout.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "E-commerce checkout flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Firefox",
+              "projectName": "Firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 16917,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-07T04:44:36.110Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "25ab1bfc84c57e3e3a45-5893d65b50a6e305f109",
+          "file": "checkout.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "E-commerce checkout flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Edge",
+              "projectName": "Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 15704,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-07T04:44:36.128Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "25ab1bfc84c57e3e3a45-d6c8c29c34f54344df83",
+          "file": "checkout.spec.ts",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-07T04:44:34.187Z",
+    "duration": 24449.894,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
