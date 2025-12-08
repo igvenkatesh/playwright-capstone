@@ -1,0 +1,244 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Software testing courses" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Software testing courses
+  - banner [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - link "SUT" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e13]'
+        - text: Practice
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - button "Demos" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Tools" [ref=e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e20]:
+            - link "Tips" [ref=e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e22]:
+            - link "Test Cases" [ref=e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e24]:
+            - link "API Testing" [ref=e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e26]:
+            - link "About" [ref=e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e29]:
+    - insertion [ref=e33]:
+      - iframe [ref=e35]:
+        - generic [active] [ref=f3e1]:
+          - generic [ref=f3e6]:
+            - link [ref=f3e7] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CgyZXc2I3adSAPbyTssUPs-77gAj2jcLEgwG_zcuE7xTWzcuaoUcQASCVlJmjAWDlgoCA2A6gAaybtfRByAEJqQJQatrjFos7PqgDAcgDywSqBI0CT9Cb2cIytArzPnWvhQIq57-b8nosIUO8W2mcPKg4N5z5KpmO6o6044XdSg1bE0clGW_4mRxlLs10yRlz_UN8V5k9_iko8-RBYTpJvlH_JYFnOYut7PpVGfFfl2mWNJ-0Lw653inof95UIlv98zFwftAdlOz69bNyaiSsWn467YkBs5Lu-abKg8bgj2fF65cbMdF2M29D9mkr1PaHOYvGCCt6QskBnM1N3Iqa3Gb5tlKqTsoLaNCvIa2piaLoXvtg63MBxcYTfGM1CI3UoFfoM3c7tYu8B90MJ140GRWfhCTfJLSmdzbWWLHPTot64Y5mK6i1g78zCIwqNS0Z0AAYq0zSERR8CPPiz0JX1p_ABIL0iMDDBYgF9pydy1agBi6AB6zThdQcqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_eSZ0JWvkQOxCaPe3XQmLyE1gAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMIg-Sl0JWvkQMVvImsAh0z9x6A8A0CiA4J2BMC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAqFPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE&num=1&cid=CAQSvwEAwksa0XbVcRedPTJESTWxaDcpesRmSkM2etkCkaboSnfWIsF2CtY-VZYfg89lIk09zPXrQFtWeE5rwSyjVCsejuaEyQKCCPwX49fm2pUVmwE9d4enJPtnXlvRvxerrj5jSKMuecacwRnW0gztTRheErQHydIu-THLFnadFmb47POl8u6o_9Xr0Z6wY90n6AKdvo_c_mKpZSCftS2C6tB9sxIXyOKdSs71xFx4_apK7d4gMDt3tQ6qNWZZyrM1cBgB&sig=AOD64_2xudXJNQO-dFC78U--2WiG_1qxyg&client=ca-pub-1056034821646296&rf=1&nb=9&adurl=https://www.travelandleisureasia.com/in/destinations/where-to-go-in-tokyo/%3Fgad_source%3D5%26gad_campaignid%3D23243214454%26gclid%3DEAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE
+              - img [ref=f3e8]
+            - generic [ref=f3e10]:
+              - generic [ref=f3e13]:
+                - link "Family Fun Awaits in Tokyo" [ref=f3e16] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CgyZXc2I3adSAPbyTssUPs-77gAj2jcLEgwG_zcuE7xTWzcuaoUcQASCVlJmjAWDlgoCA2A6gAaybtfRByAEJqQJQatrjFos7PqgDAcgDywSqBI0CT9Cb2cIytArzPnWvhQIq57-b8nosIUO8W2mcPKg4N5z5KpmO6o6044XdSg1bE0clGW_4mRxlLs10yRlz_UN8V5k9_iko8-RBYTpJvlH_JYFnOYut7PpVGfFfl2mWNJ-0Lw653inof95UIlv98zFwftAdlOz69bNyaiSsWn467YkBs5Lu-abKg8bgj2fF65cbMdF2M29D9mkr1PaHOYvGCCt6QskBnM1N3Iqa3Gb5tlKqTsoLaNCvIa2piaLoXvtg63MBxcYTfGM1CI3UoFfoM3c7tYu8B90MJ140GRWfhCTfJLSmdzbWWLHPTot64Y5mK6i1g78zCIwqNS0Z0AAYq0zSERR8CPPiz0JX1p_ABIL0iMDDBYgF9pydy1agBi6AB6zThdQcqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_eSZ0JWvkQOxCaPe3XQmLyE1gAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMIg-Sl0JWvkQMVvImsAh0z9x6A8A0CiA4J2BMC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAqFPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE&num=1&cid=CAQSvwEAwksa0XbVcRedPTJESTWxaDcpesRmSkM2etkCkaboSnfWIsF2CtY-VZYfg89lIk09zPXrQFtWeE5rwSyjVCsejuaEyQKCCPwX49fm2pUVmwE9d4enJPtnXlvRvxerrj5jSKMuecacwRnW0gztTRheErQHydIu-THLFnadFmb47POl8u6o_9Xr0Z6wY90n6AKdvo_c_mKpZSCftS2C6tB9sxIXyOKdSs71xFx4_apK7d4gMDt3tQ6qNWZZyrM1cBgB&sig=AOD64_2xudXJNQO-dFC78U--2WiG_1qxyg&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.travelandleisureasia.com/in/destinations/where-to-go-in-tokyo/%3Fgad_source%3D5%26gad_campaignid%3D23243214454%26gclid%3DEAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE
+                - link "Make Tokyo your next family adventure — where smiles grow brighter every day" [ref=f3e19] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CgyZXc2I3adSAPbyTssUPs-77gAj2jcLEgwG_zcuE7xTWzcuaoUcQASCVlJmjAWDlgoCA2A6gAaybtfRByAEJqQJQatrjFos7PqgDAcgDywSqBI0CT9Cb2cIytArzPnWvhQIq57-b8nosIUO8W2mcPKg4N5z5KpmO6o6044XdSg1bE0clGW_4mRxlLs10yRlz_UN8V5k9_iko8-RBYTpJvlH_JYFnOYut7PpVGfFfl2mWNJ-0Lw653inof95UIlv98zFwftAdlOz69bNyaiSsWn467YkBs5Lu-abKg8bgj2fF65cbMdF2M29D9mkr1PaHOYvGCCt6QskBnM1N3Iqa3Gb5tlKqTsoLaNCvIa2piaLoXvtg63MBxcYTfGM1CI3UoFfoM3c7tYu8B90MJ140GRWfhCTfJLSmdzbWWLHPTot64Y5mK6i1g78zCIwqNS0Z0AAYq0zSERR8CPPiz0JX1p_ABIL0iMDDBYgF9pydy1agBi6AB6zThdQcqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_eSZ0JWvkQOxCaPe3XQmLyE1gAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMIg-Sl0JWvkQMVvImsAh0z9x6A8A0CiA4J2BMC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAqFPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE&num=1&cid=CAQSvwEAwksa0XbVcRedPTJESTWxaDcpesRmSkM2etkCkaboSnfWIsF2CtY-VZYfg89lIk09zPXrQFtWeE5rwSyjVCsejuaEyQKCCPwX49fm2pUVmwE9d4enJPtnXlvRvxerrj5jSKMuecacwRnW0gztTRheErQHydIu-THLFnadFmb47POl8u6o_9Xr0Z6wY90n6AKdvo_c_mKpZSCftS2C6tB9sxIXyOKdSs71xFx4_apK7d4gMDt3tQ6qNWZZyrM1cBgB&sig=AOD64_2xudXJNQO-dFC78U--2WiG_1qxyg&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.travelandleisureasia.com/in/destinations/where-to-go-in-tokyo/%3Fgad_source%3D5%26gad_campaignid%3D23243214454%26gclid%3DEAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE
+                  - text: Make Tokyo your next family adventure — where smiles grow brighter every
+                  - text: day
+              - generic [ref=f3e22]:
+                - link:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CgyZXc2I3adSAPbyTssUPs-77gAj2jcLEgwG_zcuE7xTWzcuaoUcQASCVlJmjAWDlgoCA2A6gAaybtfRByAEJqQJQatrjFos7PqgDAcgDywSqBI0CT9Cb2cIytArzPnWvhQIq57-b8nosIUO8W2mcPKg4N5z5KpmO6o6044XdSg1bE0clGW_4mRxlLs10yRlz_UN8V5k9_iko8-RBYTpJvlH_JYFnOYut7PpVGfFfl2mWNJ-0Lw653inof95UIlv98zFwftAdlOz69bNyaiSsWn467YkBs5Lu-abKg8bgj2fF65cbMdF2M29D9mkr1PaHOYvGCCt6QskBnM1N3Iqa3Gb5tlKqTsoLaNCvIa2piaLoXvtg63MBxcYTfGM1CI3UoFfoM3c7tYu8B90MJ140GRWfhCTfJLSmdzbWWLHPTot64Y5mK6i1g78zCIwqNS0Z0AAYq0zSERR8CPPiz0JX1p_ABIL0iMDDBYgF9pydy1agBi6AB6zThdQcqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_eSZ0JWvkQOxCaPe3XQmLyE1gAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMIg-Sl0JWvkQMVvImsAh0z9x6A8A0CiA4J2BMC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAqFPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE&num=1&cid=CAQSvwEAwksa0XbVcRedPTJESTWxaDcpesRmSkM2etkCkaboSnfWIsF2CtY-VZYfg89lIk09zPXrQFtWeE5rwSyjVCsejuaEyQKCCPwX49fm2pUVmwE9d4enJPtnXlvRvxerrj5jSKMuecacwRnW0gztTRheErQHydIu-THLFnadFmb47POl8u6o_9Xr0Z6wY90n6AKdvo_c_mKpZSCftS2C6tB9sxIXyOKdSs71xFx4_apK7d4gMDt3tQ6qNWZZyrM1cBgB&sig=AOD64_2xudXJNQO-dFC78U--2WiG_1qxyg&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.travelandleisureasia.com/in/destinations/where-to-go-in-tokyo/%3Fgad_source%3D5%26gad_campaignid%3D23243214454%26gclid%3DEAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE
+                - link "TokyoTokyo" [ref=f3e24] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CgyZXc2I3adSAPbyTssUPs-77gAj2jcLEgwG_zcuE7xTWzcuaoUcQASCVlJmjAWDlgoCA2A6gAaybtfRByAEJqQJQatrjFos7PqgDAcgDywSqBI0CT9Cb2cIytArzPnWvhQIq57-b8nosIUO8W2mcPKg4N5z5KpmO6o6044XdSg1bE0clGW_4mRxlLs10yRlz_UN8V5k9_iko8-RBYTpJvlH_JYFnOYut7PpVGfFfl2mWNJ-0Lw653inof95UIlv98zFwftAdlOz69bNyaiSsWn467YkBs5Lu-abKg8bgj2fF65cbMdF2M29D9mkr1PaHOYvGCCt6QskBnM1N3Iqa3Gb5tlKqTsoLaNCvIa2piaLoXvtg63MBxcYTfGM1CI3UoFfoM3c7tYu8B90MJ140GRWfhCTfJLSmdzbWWLHPTot64Y5mK6i1g78zCIwqNS0Z0AAYq0zSERR8CPPiz0JX1p_ABIL0iMDDBYgF9pydy1agBi6AB6zThdQcqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_eSZ0JWvkQOxCaPe3XQmLyE1gAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMIg-Sl0JWvkQMVvImsAh0z9x6A8A0CiA4J2BMC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAqFPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE&num=1&cid=CAQSvwEAwksa0XbVcRedPTJESTWxaDcpesRmSkM2etkCkaboSnfWIsF2CtY-VZYfg89lIk09zPXrQFtWeE5rwSyjVCsejuaEyQKCCPwX49fm2pUVmwE9d4enJPtnXlvRvxerrj5jSKMuecacwRnW0gztTRheErQHydIu-THLFnadFmb47POl8u6o_9Xr0Z6wY90n6AKdvo_c_mKpZSCftS2C6tB9sxIXyOKdSs71xFx4_apK7d4gMDt3tQ6qNWZZyrM1cBgB&sig=AOD64_2xudXJNQO-dFC78U--2WiG_1qxyg&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://www.travelandleisureasia.com/in/destinations/where-to-go-in-tokyo/%3Fgad_source%3D5%26gad_campaignid%3D23243214454%26gclid%3DEAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE
+                - link "Learn More" [ref=f3e26] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CgyZXc2I3adSAPbyTssUPs-77gAj2jcLEgwG_zcuE7xTWzcuaoUcQASCVlJmjAWDlgoCA2A6gAaybtfRByAEJqQJQatrjFos7PqgDAcgDywSqBI0CT9Cb2cIytArzPnWvhQIq57-b8nosIUO8W2mcPKg4N5z5KpmO6o6044XdSg1bE0clGW_4mRxlLs10yRlz_UN8V5k9_iko8-RBYTpJvlH_JYFnOYut7PpVGfFfl2mWNJ-0Lw653inof95UIlv98zFwftAdlOz69bNyaiSsWn467YkBs5Lu-abKg8bgj2fF65cbMdF2M29D9mkr1PaHOYvGCCt6QskBnM1N3Iqa3Gb5tlKqTsoLaNCvIa2piaLoXvtg63MBxcYTfGM1CI3UoFfoM3c7tYu8B90MJ140GRWfhCTfJLSmdzbWWLHPTot64Y5mK6i1g78zCIwqNS0Z0AAYq0zSERR8CPPiz0JX1p_ABIL0iMDDBYgF9pydy1agBi6AB6zThdQcqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_eSZ0JWvkQOxCaPe3XQmLyE1gAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMIg-Sl0JWvkQMVvImsAh0z9x6A8A0CiA4J2BMC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAqFPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE&num=1&cid=CAQSvwEAwksa0XbVcRedPTJESTWxaDcpesRmSkM2etkCkaboSnfWIsF2CtY-VZYfg89lIk09zPXrQFtWeE5rwSyjVCsejuaEyQKCCPwX49fm2pUVmwE9d4enJPtnXlvRvxerrj5jSKMuecacwRnW0gztTRheErQHydIu-THLFnadFmb47POl8u6o_9Xr0Z6wY90n6AKdvo_c_mKpZSCftS2C6tB9sxIXyOKdSs71xFx4_apK7d4gMDt3tQ6qNWZZyrM1cBgB&sig=AOD64_2xudXJNQO-dFC78U--2WiG_1qxyg&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.travelandleisureasia.com/in/destinations/where-to-go-in-tokyo/%3Fgad_source%3D5%26gad_campaignid%3D23243214454%26gclid%3DEAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE
+                - link [ref=f3e27] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CgyZXc2I3adSAPbyTssUPs-77gAj2jcLEgwG_zcuE7xTWzcuaoUcQASCVlJmjAWDlgoCA2A6gAaybtfRByAEJqQJQatrjFos7PqgDAcgDywSqBI0CT9Cb2cIytArzPnWvhQIq57-b8nosIUO8W2mcPKg4N5z5KpmO6o6044XdSg1bE0clGW_4mRxlLs10yRlz_UN8V5k9_iko8-RBYTpJvlH_JYFnOYut7PpVGfFfl2mWNJ-0Lw653inof95UIlv98zFwftAdlOz69bNyaiSsWn467YkBs5Lu-abKg8bgj2fF65cbMdF2M29D9mkr1PaHOYvGCCt6QskBnM1N3Iqa3Gb5tlKqTsoLaNCvIa2piaLoXvtg63MBxcYTfGM1CI3UoFfoM3c7tYu8B90MJ140GRWfhCTfJLSmdzbWWLHPTot64Y5mK6i1g78zCIwqNS0Z0AAYq0zSERR8CPPiz0JX1p_ABIL0iMDDBYgF9pydy1agBi6AB6zThdQcqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_eSZ0JWvkQOxCaPe3XQmLyE1gAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMIg-Sl0JWvkQMVvImsAh0z9x6A8A0CiA4J2BMC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAqFPGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE&num=1&cid=CAQSvwEAwksa0XbVcRedPTJESTWxaDcpesRmSkM2etkCkaboSnfWIsF2CtY-VZYfg89lIk09zPXrQFtWeE5rwSyjVCsejuaEyQKCCPwX49fm2pUVmwE9d4enJPtnXlvRvxerrj5jSKMuecacwRnW0gztTRheErQHydIu-THLFnadFmb47POl8u6o_9Xr0Z6wY90n6AKdvo_c_mKpZSCftS2C6tB9sxIXyOKdSs71xFx4_apK7d4gMDt3tQ6qNWZZyrM1cBgB&sig=AOD64_2xudXJNQO-dFC78U--2WiG_1qxyg&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.travelandleisureasia.com/in/destinations/where-to-go-in-tokyo/%3Fgad_source%3D5%26gad_campaignid%3D23243214454%26gclid%3DEAIaIQobChMIlIaa0JWvkQMVvImsAh0z9x6AEAEYASAAEgJ13PD_BwE
+                  - generic [ref=f3e28]:
+                    - img [ref=f3e29]
+                    - img [ref=f3e31]
+          - img [ref=f3e39] [cursor=pointer]
+          - button [ref=f3e41] [cursor=pointer]:
+            - img [ref=f3e42]
+          - iframe
+    - paragraph [ref=e37]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e38] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - navigation "breadcrumb mb-2" [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "Home" [ref=e46] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e47]: / Login Page
+        - heading "Test Login page for Automation Testing Practice" [level=1] [ref=e48]
+        - generic [ref=e50]:
+          - paragraph [ref=e51]: This Test Login page is designed for automation testing practice. Test various positive and negative login scenarios in a testing environment.
+          - paragraph [ref=e52]:
+            - text: You can use this login page for practicing with Selenium or other tools like Playwright, Cypress, etc.
+            - link "UI testing tools" [ref=e53] [cursor=pointer]:
+              - img [ref=e55]
+              - text: UI testing tools
+          - paragraph [ref=e57]:
+            - text: Register
+            - link "here" [ref=e58] [cursor=pointer]:
+              - /url: /register
+            - text: "or Log in to the secure area with these credentials:"
+          - list [ref=e59]:
+            - listitem [ref=e60]: "Username: practice"
+            - listitem [ref=e61]: "Password: SuperSecretPassword!"
+          - paragraph
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]: Username
+              - textbox "Username" [ref=e70]
+            - generic [ref=e71]:
+              - generic [ref=e72]: Password
+              - textbox "Password" [ref=e73]
+          - button "Login" [ref=e74] [cursor=pointer]
+        - generic [ref=e75]:
+          - heading "How to test the login page?" [level=2] [ref=e76]
+          - generic [ref=e77]:
+            - paragraph [ref=e78]:
+              - text: If the credentials are correct, you should see a welcome message; otherwise, you will see an error message.
+              - link "Selenium WebDriver course" [ref=e79] [cursor=pointer]:
+                - img [ref=e81]
+                - text: Selenium WebDriver course
+            - insertion [ref=e84]:
+              - generic "These are topics related to the article that might interest you" [ref=e86]: Discover more
+            - paragraph [ref=e87]: The login feature is essential for secure websites and is commonly used. Automating the testing of various login scenarios, including different edge cases, is crucial to ensure reliability and security.
+            - heading "How Does Form-Based Authentication Work?" [level=3] [ref=e88]
+            - paragraph [ref=e89]: "Take a look at this diagram and review the different steps:"
+            - img "How Does Form-Based Authentication Work" [ref=e90]
+            - list [ref=e91]:
+              - listitem [ref=e92]: "Step 1: A client requests access to a protected resource"
+              - listitem [ref=e93]: "Step 2: If the client is unauthenticated, the server redirects the client to a login page"
+              - listitem [ref=e94]: "Step 3: The client submits the login form to the server"
+              - listitem [ref=e95]: "Step 4: If the login succeeds, the server redirects the client to the resource. If the login fails, the client is redirected to an error page"
+      - generic [ref=e97]:
+        - heading "Login Automation Test Cases" [level=2] [ref=e98]
+        - paragraph [ref=e99]:
+          - text: Below are the test cases for the login page. These test cases cover both positive and negative scenarios to ensure comprehensive testing of the login functionality.
+          - link "Software testing courses" [ref=e100] [cursor=pointer]:
+            - img [ref=e102]
+            - text: Software testing courses
+        - paragraph [ref=e104]:
+          - text: To perform these tests, please navigate to this
+          - link "page" [ref=e105] [cursor=pointer]:
+            - /url: /login
+        - heading "Login Automation Test Cases" [level=2] [ref=e106]
+        - 'heading "Test Case 1: Successful Login" [level=3] [ref=e107]'
+        - list [ref=e108]:
+          - listitem [ref=e109]: Launch the browser.
+          - listitem [ref=e110]:
+            - text: Navigate to the
+            - link "login" [ref=e111] [cursor=pointer]:
+              - /url: /login
+            - text: page URL.
+          - listitem [ref=e112]: Verify that the login page is displayed successfully.
+          - listitem [ref=e113]:
+            - text: Enter
+            - strong [ref=e114]: Username
+            - text: ":"
+            - code [ref=e115]: practice
+            - text: .
+          - listitem [ref=e116]:
+            - text: Enter
+            - strong [ref=e117]: Password
+            - text: ":"
+            - code [ref=e118]: SuperSecretPassword!
+            - text: .
+          - listitem [ref=e119]:
+            - text: Click the
+            - strong [ref=e120]: Login
+            - text: button.
+          - listitem [ref=e121]:
+            - text: Verify that the user is redirected to the
+            - code [ref=e122]: /secure
+            - text: page.
+          - listitem [ref=e123]: Confirm the success message "You logged into a secure area!" is visible.
+          - listitem [ref=e124]:
+            - text: Verify that a
+            - strong [ref=e125]: Logout
+            - text: button is displayed.
+        - separator [ref=e126]
+        - 'heading "Test Case 2: Invalid Username" [level=3] [ref=e127]'
+        - list [ref=e128]:
+          - listitem [ref=e129]: Launch the browser.
+          - listitem [ref=e130]: Navigate to the login page URL.
+          - listitem [ref=e131]: Verify that the login page is displayed successfully.
+          - listitem [ref=e132]:
+            - text: Enter an incorrect
+            - strong [ref=e133]: Username
+            - text: (e.g.,
+            - code [ref=e134]: wrongUser
+            - text: ).
+          - listitem [ref=e135]:
+            - text: Enter
+            - strong [ref=e136]: Password
+            - text: ":"
+            - code [ref=e137]: SuperSecretPassword!
+            - text: .
+          - listitem [ref=e138]:
+            - text: Click the
+            - strong [ref=e139]: Login
+            - text: button.
+          - listitem [ref=e140]: Verify that an error message "Invalid username." is displayed.
+          - listitem [ref=e141]: Ensure the user remains on the login page.
+        - separator [ref=e142]
+        - 'heading "Test Case 3: Invalid Password" [level=3] [ref=e143]'
+        - list [ref=e144]:
+          - listitem [ref=e145]: Launch the browser.
+          - listitem [ref=e146]: Navigate to the login page URL.
+          - listitem [ref=e147]: Verify that the login page is displayed successfully.
+          - listitem [ref=e148]:
+            - text: Enter
+            - strong [ref=e149]: Username
+            - text: ":"
+            - code [ref=e150]: practice
+            - text: .
+          - listitem [ref=e151]:
+            - text: Enter an incorrect
+            - strong [ref=e152]: Password
+            - text: (e.g.,
+            - code [ref=e153]: WrongPassword
+            - text: ).
+          - listitem [ref=e154]:
+            - text: Click the
+            - strong [ref=e155]: Login
+            - text: button.
+          - listitem [ref=e156]: Verify that an error message "Invalid password." is displayed.
+          - listitem [ref=e157]: Ensure the user remains on the login page.
+  - contentinfo [ref=e158]:
+    - generic [ref=e163]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e164]
+      - paragraph [ref=e165]:
+        - text: "Version: 874f3178 | Copyright"
+        - link "Expand Testing" [ref=e166] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - img [ref=e168] [cursor=pointer]
+  - insertion [ref=e170]:
+    - iframe [ref=e173]:
+      - iframe [ref=f14e1]:
+        - generic [ref=f18e2]:
+          - link "Advertisement" [ref=f18e4] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjst25gMi8DTYeK94ELWC_NLes8Ua8f5p8rhAz_bcmyoY73MQ4uTIq95KrojM4fWAHBj5NYAJhstiql06LOblqUXnmcR4IQ4wUBdVfx4ivWblIyr1XgNqXLf-tXQvebIgSHAyQmYiSvDcfRVnDRDg6PDLIrzfG1tUytF4GfMU2DWG-Iq6I2GTjO-VtMRO47tYF73oxyeEOGkFqAayGDsQJYf-ZI1wGxWy1WWsmt3Be0TgUKu9PGreipMHy32KkqXVGIoz30lXfYsxklnRLus17yqQvZv_FJ0WrHQ6ziguCZkEU7BTqK084xzubbWu6eGghw_3_dh3zW-yb4UWKeW2oATJQRYd7SPCuPoGEnz4vuyGH98u4QQvVP_wSK8yrB8Gw-1-P2e4DHpEQMkE3PADtH9aRc-ilMnlYD2JMC0klfOc4o0mwu4kTA36aAQrji2GIvXUhVdL3YvgNh9IH64jdll5qGrXCZNcuEqfbTc49rLcOSgtX2mmfxBBOxOx2wKOnWRwMi4t9dvpEbZfNLLzFpJPnwvmJYKEIsLxjiVBiNT9__ecAv3FTr8ULXT_Fm342eJad4n7lL1Bv5wq-w8xpPt9jLY8M0MqGq0cbo-r2phWRFjKSePACAveZ0hiW8U3owCx38MSkBh4Po218h-uZp27u_7veT_Zmp85n_0VtFTovW0t7m8hL_KX7PJUdZxAD0PMdneeeU6Ct3FHPDiucKSPI0WBjMIO2BoJwtbHp0ciFrcj_QMfim6m08MpyWbXvyypMKpweedUYfUUaAmiKHfswF4n8fAzZZjP9kkHYpgC4ytZ_yfqFTH1C5t1VO2RTFGeCsc9ahjuDKPWfX-vKkCXSNRChbS5-MpU-7oM94n3kO9WehBN9Ye1F0T568EBuJBRsuQIWSxNH_Dyzh3sk6j76m7sUe3Br7Qp99VZgrA58dGiEEpUrZ4KZcszL6lY7b1Lm0CwkFyu-yzvimaUxZIK2CZKVjpl8UQyZvTITe9MpVr2DDogmEJFhPOq9A1OQ7SmmShKiIQGCXjdFema2TtFcwwfefAOvF0FGHTJDVwqXSazVmt8eHydq7S7iwPmKk7UyGBm1TpCpH6lzvwuvpXglYtBQwDio3Q93xmshKGIozivOYaXe_qNya7DNExUUewpG0lbxzgj_tI537_uoUY66CWm0DrTdwvJ1tEeuOxmOLGEzm2LrUF_nV-hbImkZ9Nz4kDjVs_CrxZ3a8tl_Ak8zWNIvKF_pcYEL1MfIskaSqBE-EC6bfDimZSumkV-UBcYSBDNC9YFckVgaxGfpeygyMTS_o8YP6VR58wtDZmnFrb6kcAXHii2FDGpGiTrWJpA8nkukW_pAzVfXim_RDpyOBsJ3xIM_EHWOl4a7G6f4F-392bcVxPAJfI0MMe31-OA9DQ9JPx29aWjdH6l8aZYwttn3lHsj9-GVQw62pAouPlAs5zCHcWzGW7z3Sr4Pa6uVabE3-avFxISblG28rWZJzxt1ilJtVTPyPu6xZnPf2bsy1309V7K4RBbgO_-kZTtr4i3itOx6a7sw1UIf39fIVb2BHP4XQ7rRGmba0Vw7oe7JydOcMpMTxcLQFvUXW1ePbsROXV0KZyDIQsuUgsOiUK90XOwJHAwvIheMnz6LZevtIGpKMGeFjkUAPBi5xclmqSkH5_wTq_6jYbwRMbRbhPckRNVzTQQzQBtiRbYyRs9jKZf5rpRJQeB5jBy_4-UBz5OIfM8gRQqPpENOAASl3ZAsHlTzV8BXugntJ-xi37E62OeiHSrUHU975YjxT2Ozv0kFbLwsNswH5Op89g_8AZqrJP7uR4TlN6kjxIdJlyfhC2RcD1Sf_uz7nlZRbEM9gVIB8LancuIIbg1Urmnpfjm_x3CO8S5YdaOnHGl6OzNGea9URgWowd1UUc7CUI&sai=AMfl-YT0LVtheAa3x5qzirJR_nXDM5hF4gNPIMUtyW3D1Acd-7VT87qSCqdjVw7OLib5eAVxghdPnMn9UnLHFZRq6B1iPh-A_vQ5VKF8dpi5R2iTf4Vzcvb1BrQEDE7bg5N3toaiMldmssVxpZbpWJy4kove_iQsev5-se-lE0HgXQYS7MaPdL4ibhis1tNqYIxKyoScJl-t5AA8vtJGn8rc75dz30I5iSsxHvVi4Yv_yxguwN3XZP6nlPTvgk2TXGgxFRvDO3h5D0DwCkht2oKUMrUKPVKf1OUWq7nH4wndYmKx4IARcWU8g95qO-WrR8kMh8QQmx2WNUrQWbeljcOOxledGQMr2rxaqFec_KBhi9ydF1YTOyXkJ2DqAnK5IzZmSrtiXeNskR0hFiSGwzRgLEFL5637K8oLoIuAOtIClpPogDsE0hyF2J1H_TDAevOHpdvnS-ztNd91hj4zJ-u4W6q8UNQLl6ewY8VAvgnhdR_xE_N55xXeSxSEmBHPUlDkFGaAgOubF_byKMaymnM01ZO7El-K_Oi5S3qNSwN_2mPJlde7PRT2CNnKPfVas7R29avNgPebMfth7OU6vwa0lvzDWPuWJvzbBFNSMf6DHEmf0892U8NEjOsVfq84mHhynrFjLKbCBK4OZ8xKgm4yEhulEIhUXtCf9XuxiiU-V023M8pPR3iyo8z0M-awkAB3mcN4GA&sig=Cg0ArKJSzMrSrUErF3xh&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.visitdubai.com/en/dubai-ready-for-a-surprise%3Futm_source%3Dprogrammatic%26utm_medium%3Ddisplay%26utm_campaign%3Dseasonalaonapac%26utm_term%3Dind-en_indiabrandambassador%26utm_content%3Dconsideration_banner728x90_OPXInmarketAll%26dclid%3D%25edclid!%26gad_source%3D7
+            - img "Advertisement" [ref=f18e5]
+          - generic [ref=f18e6]:
+            - generic:
+              - img [ref=f18e10] [cursor=pointer]
+              - button [ref=f18e12] [cursor=pointer]:
+                - img [ref=f18e13]
+```
