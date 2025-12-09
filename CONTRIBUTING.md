@@ -20,6 +20,38 @@ Thank you for contributing! This document explains how to add tests, follow repo
    - JS: Playwright Test in `js/tests`
 4. Keep tests resilient: use tolerant selectors, guard UI assumptions with try/catch, and avoid depending on exact text where possible.
 
+### POM / Test File Template Checklist
+
+When adding a new Page Object or test file, follow this quick checklist to keep things consistent and reviewable:
+
+- [ ] Create a POM file in the language's `pages` folder (e.g., `java/src/test/java/pages/`, `dotnet/Pages/`, `python/pages/`, `js/pages/`).
+- [ ] Add a top-of-file doc comment describing the POM's purpose and public methods.
+- [ ] For each public method, add a one-line comment or docstring describing intent and any fallback selectors used.
+- [ ] Keep methods single-responsibility (one user action per method).
+- [ ] Add at least one test that uses the new POM, placed in the language's test folder.
+- [ ] Run that language's test helper locally (see `scripts/`), and confirm the test passes.
+- [ ] Ensure tests are tolerant of minor UI differences (use try/catch or multiple selectors as appropriate).
+- [ ] Add or update README/guide if the new test covers a new feature or requires special setup.
+
+Example Javadoc-style header (Java):
+```java
+/**
+ * POM for the login page.
+ * Provides `navigateTo()` and `login(username,password)` helpers used by tests.
+ */
+public class LoginPage { ... }
+```
+
+Example Python docstring (Python):
+```python
+"""POM for login page.
+
+Methods:
+ - goto()
+ - login(username, password)
+"""
+```
+
 ## Running tests locally (quick)
 
 - Java
