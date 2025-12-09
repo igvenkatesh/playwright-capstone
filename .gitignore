@@ -1,0 +1,17 @@
+# Ignore build and test artifacts
+/java/target/
+/js/test-results/
+/python/.venv/
+/python/__pycache__/
+*.dumpstream
+*.png
+*.webm
+*.log
+/.vscode/
+node_modules/
+/.idea/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+.DS_Store
