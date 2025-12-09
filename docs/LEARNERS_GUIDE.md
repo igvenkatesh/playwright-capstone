@@ -183,3 +183,41 @@ If you'd like, I can also:
 - Add badges or a short CONTRIBUTING guide for test authors.
 
 Enjoy exploring the Playwright capstone! If you'd like me to add scripts or CI updates, tell me which language(s) to target.
+
+---
+
+**Helper scripts included**
+
+This repo now contains PowerShell helper scripts under `scripts/` to simplify running tests locally on Windows:
+
+- `scripts/run-java-tests.ps1` — runs `mvn clean test` for the Java project (attempts to set `JAVA_HOME` if unset).
+- `scripts/run-dotnet-tests.ps1` — runs `dotnet test --no-build` in the `dotnet/` folder.
+- `scripts/run-python-tests.ps1` — creates/activates a venv, installs `requirements.txt`, and runs `pytest`.
+- `scripts/run-js-tests.ps1` — installs JS deps and Playwright browsers then runs `npx playwright test`.
+- `scripts/run-all-tests.ps1` — runs the above helpers sequentially and reports failures.
+
+Use these from PowerShell at the repository root. Example:
+
+```powershell
+.\scripts\run-all-tests.ps1
+```
+
+**CI & Dashboard publishing**
+
+- A GitHub Actions workflow `.github/workflows/ci.yml` runs tests for each language and writes a Playwright JSON report into `dashboard/data/results.json` (for JS tests). The workflow also uploads test artifacts and publishes the `dashboard/` folder as an artifact suitable for GitHub Pages.
+- The dashboard reads `dashboard/data/results.json` and renders a simple table and bar chart of pass/fail counts. If you run tests locally and want the dashboard to show local data, copy a Playwright JSON report into `dashboard/data/results.json` (or run the JS test with `--reporter=json=dashboard/data/results.json`).
+
+**Commenting & Documentation Guidelines (for learners)**
+
+- Keep POMs small and documented. Add a short file/class docstring or comment at the top that explains the purpose of the POM and the public methods it exposes.
+- For methods, include a one-line comment (or docstring) explaining the intent and any important selectors or fallbacks.
+- Examples in this repo:
+  - Java POMs use Javadoc-style comments (see `java/src/test/java/pages/`).
+  - .NET POMs include XML doc comments (see `dotnet/Pages/`).
+  - Python POMs include triple-quoted docstrings (see `python/pages/`).
+  - TypeScript POMs include top-of-file comments and inline comments for selectors (see `js/pages/`).
+
+Why this matters:
+- Well-commented POMs make tests easier to read and maintain — tests should describe *what* they verify; POMs describe *how* interactions are performed.
+
+If you'd like, I can add a small checklist into `CONTRIBUTING.md` showing a short template for new POMs and test files (recommended docstring blocks). Would you like that? 

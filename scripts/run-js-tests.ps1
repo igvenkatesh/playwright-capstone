@@ -9,6 +9,7 @@ try {
   # Ensure Playwright browsers are installed
   npx playwright install
   npx playwright test
-} finally {
+}
+finally {
   Pop-Location
 }
