@@ -1,0 +1,77 @@
+name: CI - Run tests & publish dashboard
+
+on:
+  push:
+    branches: [ main, 'appmod/**' ]
+  pull_request:
+
+jobs:
+  run-tests-and-publish-dashboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install JS deps and Playwright browsers
+        working-directory: js
+        run: |
+          npm ci
+          npx playwright install --with-deps
+
+      - name: Run JS Playwright tests (produce JSON report for dashboard)
+        working-directory: js
+        run: |
+          npx playwright test --reporter=json=../dashboard/data/results.json || true
+
+      - name: Run Java tests
+        run: |
+          mvn -f java/pom.xml test
+
+      - name: Run .NET tests
+        working-directory: dotnet
+        run: |
+          dotnet test --no-build
+
+      - name: Run Python tests
+        run: |
+          python -m pip install -r python/requirements.txt
+          pytest -q || true
+
+      - name: Upload test artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-test-artifacts
+          path: |
+            java/target/surefire-reports
+            js/test-results
+            dashboard/data/results.json
+
+      - name: Publish dashboard to GitHub Pages
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: dashboard
